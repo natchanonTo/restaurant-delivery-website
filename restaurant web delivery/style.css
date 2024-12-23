@@ -15,18 +15,27 @@
 img{
     max-width: 100%;
     width: 1024px;
+    height: 350px;
+    object-fit: cover;
 }
-.feature-item{
+.featured-item{
     display: flex;
     flex-direction: column;
     width: 520px;
     flex: 1;
     padding: 10px;
 }
-.feature{
+.featured{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+}
+.featured-text{
+    padding: 10px;
+    margin-left: 10px;
+}
+.featured-text p{
+    margin-top: 10px;
 }
 button {
     background-color: #04AA6D; /* Green */
