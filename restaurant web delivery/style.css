@@ -6,17 +6,21 @@
 .header{
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .text-header{
     padding: 10px;
     font-weight: bold;
 }
-img{
+.featured-item img{
     max-width: 100%;
     width: 1024px;
     height: 350px;
     object-fit: cover;
+    border-radius: 10px;
 }
 .featured-item{
     display: flex;
@@ -37,6 +41,54 @@ img{
 .featured-text p{
     margin-top: 10px;
 }
+.popular-item img{
+    max-width: 100%;
+    width: 1024px;
+    height: 350px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+}
+.popular-item{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    flex: 1;
+    padding: 10px;
+}
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.popular-text{
+    padding: 10px;
+    margin-left: 10px;
+}
+.popular-text p{
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
 button {
     background-color: #04AA6D; /* Green */
     border: none;
@@ -48,6 +100,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     width: 263px;
+    border-radius: 10px;            
 }
 button:hover {
     background-color: #45a049;
