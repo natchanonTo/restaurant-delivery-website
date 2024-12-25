@@ -9,12 +9,13 @@
 <body>
     <div class="header">
         <h1>Restaurant</h1>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li class="menu"><a href="#menu">Menu</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">☰ Menu</div>
+    <div class="menu" id="menu" onclick="alertUser()">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About me</a>
+        <a href="#contact">Contact</a>
+    </div>
     </div>
     <div class="container-featured">
         <div class="featured-text">
@@ -68,5 +69,6 @@
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
